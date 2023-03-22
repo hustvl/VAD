@@ -13,10 +13,12 @@
 <a href="https://arxiv.org/abs/2303.12077">[arXiv]</a>
 </div>
 
+<br>
 
 <div align="center">
 <img src="./framework.png" />
 </div>
+
 
 ## Introduction
 TL;DR: VAD is a vectorized paradigm for end-to-end autonomous driving.
