@@ -20,7 +20,7 @@ https://user-images.githubusercontent.com/45144254/229673708-648e8da5-4c70-4346-
 > VAD is a vectorized paradigm for end-to-end autonomous driving.
 
 <div align="center">
-<img src="./framework.png" />
+<img src="./assets/arch.png" />
 </div>
 
 - We propose VAD, an end-to-end unified vectorized paradigm for autonomous driving. VAD models the driving scene as a fully vectorized representation, getting rid of computationally intensive dense rasterized representation and hand-designed post-processing steps.
