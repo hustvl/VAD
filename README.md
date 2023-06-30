@@ -23,7 +23,7 @@ https://user-images.githubusercontent.com/45144254/229673708-648e8da5-4c70-4346-
 <img src="./framework.png" />
 </div>
 
-- We propose VAD, an end-to-end unified vectorized paradigm for autonomous driving. VAD models the driving scene as fully vectorized representation, getting rid of computationally intensive dense rasterized representation and hand-designed post-processing steps.
+- We propose VAD, an end-to-end unified vectorized paradigm for autonomous driving. VAD models the driving scene as a fully vectorized representation, getting rid of computationally intensive dense rasterized representation and hand-designed post-processing steps.
 - VAD implicitly and explicitly utilizes the vectorized scene information to improve planning safety, via query interaction and vectorized planning constraints.
 - VAD achieves SOTA end-to-end planning performance, outperforming previous methods by a large margin. Not only that, because of the vectorized scene representation and our concise model design, VAD greatly improves the inference speed, which is critical for the real-world deployment of an autonomous driving system.
 
@@ -34,8 +34,8 @@ https://user-images.githubusercontent.com/45144254/229673708-648e8da5-4c70-4346-
 | :---: | :---: | :---: | :---: | :---:| :---: | :---: | :---: |
 | ST-P3 | 1.33 | 2.11 | 2.90 | 0.23 | 0.62 | 1.27 | 1.6 |
 | UniAD | 0.48 | 0.96 | 1.65 | **0.05** | 0.17 | 0.71 | 1.8 |
-| VAD-Tiny | 0.20 | 0.38 | 0.65 | 0.10 | 0.12 | 0.27 | **16.8** |
-| VAD-Base | **0.17** | **0.34** | **0.60** | **0.07** | **0.10** | **0.24** | 4.5 |
+| VAD-Tiny | 0.46 | 0.76 | 1.12 | 0.21 | 0.35 | 0.58 | **16.8** |
+| VAD-Base | **0.41** | **0.70** | **1.05** | **0.07** | **0.17** | **0.41** | 4.5 |
 
 ## Catalog
 - [ ] Code & Checkpoints Release
@@ -45,7 +45,7 @@ https://user-images.githubusercontent.com/45144254/229673708-648e8da5-4c70-4346-
 If you have any questions or suggestions about this repo, please feel free to contact us (bjiang@hust.edu.cn, outsidercsy@gmail.com).
 
 ## Citation
-If you find VAD is useful in your research or applications, please consider giving us a star &#127775; and citing it by the following BibTeX entry.
+If you find VAD useful in your research or applications, please consider giving us a star &#127775; and citing it by the following BibTeX entry.
 
 ```BibTeX
 @article{jiang2023vad,
@@ -60,4 +60,4 @@ If you find VAD is useful in your research or applications, please consider givi
 All code in this repository is under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
 ## Acknowledgement
-VAD is based on the following projects: [mmdet3d](https://github.com/open-mmlab/mmdetection3d), [detr3d](https://github.com/WangYueFt/detr3d), [BEVFormer](https://github.com/fundamentalvision/BEVFormer) and [MapTR](https://github.com/hustvl/MapTR). Many thanks to their excellent contributions to the community.
+VAD is based on the following projects: [mmdet3d](https://github.com/open-mmlab/mmdetection3d), [detr3d](https://github.com/WangYueFt/detr3d), [BEVFormer](https://github.com/fundamentalvision/BEVFormer) and [MapTR](https://github.com/hustvl/MapTR). Many thanks for their excellent contributions to the community.
