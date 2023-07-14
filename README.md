@@ -1,8 +1,10 @@
-# VAD: Vectorized Scene Representation for Efficient Autonomous Driving
+<div align="center">
+<h1>VAD</h1>
+<h3>Vectorized Scene Representation for Efficient Autonomous Driving (ICCV 2023) </h3>
+  
+<br/>
 
 https://user-images.githubusercontent.com/45144254/229673708-648e8da5-4c70-4346-9da2-423447d1ecde.mp4
-
-<br/>
 
 > [**VAD: Vectorized Scene Representation for Efficient Autonomous Driving**](https://arxiv.org/abs/2303.12077)
 >
@@ -51,7 +53,7 @@ If you find VAD useful in your research or applications, please consider giving 
 @article{jiang2023vad,
   title={VAD: Vectorized Scene Representation for Efficient Autonomous Driving},
   author={Jiang, Bo and Chen, Shaoyu and Xu, Qing and Liao, Bencheng and Chen, Jiajie and Zhou, Helong and Zhang, Qian and Liu, Wenyu and Huang, Chang and Wang, Xinggang},
-  journal={arXiv preprint arXiv:2303.12077},
+  journal={ICCV},
   year={2023}
 }
 ```
