@@ -1,6 +1,4 @@
-<div align="left">
-<h2>VAD: Vectorized Scene Representation for Efficient Autonomous Driving </h2>
-</div>
+## VAD: Vectorized Scene Representation for Efficient Autonomous Driving
 
 https://user-images.githubusercontent.com/45144254/229673708-648e8da5-4c70-4346-9da2-423447d1ecde.mp4
 
