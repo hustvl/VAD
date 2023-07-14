@@ -1,8 +1,5 @@
-<div align="center">
-<h1>VAD</h1>
-<h3>Vectorized Scene Representation for Efficient Autonomous Driving [ICCV 2023] </h3>
-  
-<br/>
+<div align="left">
+<h2>VAD: Vectorized Scene Representation for Efficient Autonomous Driving </h2>
 </div>
 
 https://user-images.githubusercontent.com/45144254/229673708-648e8da5-4c70-4346-9da2-423447d1ecde.mp4
@@ -15,9 +12,11 @@ https://user-images.githubusercontent.com/45144254/229673708-648e8da5-4c70-4346-
 >
 > \*: equal contribution, <sup>&#8224;</sup>: corresponding author.
 >
+>[arXiv Paper](https://arxiv.org/abs/2303.12077), ICCV 2023
 
 ## News
-* **`21 Mar, 2023`:** We release the VAD paper on [Arxiv](https://arxiv.org/abs/2303.12077). Code/Models are coming soon. Please stay tuned! ☕️
+* **`14 July, 2023`:** VAD is accepted by ICCV 2023🎉! Code and models will be open source in July!
+* **`21 Mar, 2023`:** We release the VAD paper on [arXiv](https://arxiv.org/abs/2303.12077). Code/Models are coming soon. Please stay tuned! ☕️
 
 ## Introduction
 > VAD is a vectorized paradigm for end-to-end autonomous driving.
