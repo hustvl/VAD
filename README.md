@@ -1,8 +1,9 @@
 <div align="center">
 <h1>VAD</h1>
-<h3>Vectorized Scene Representation for Efficient Autonomous Driving (ICCV 2023) </h3>
+<h3>Vectorized Scene Representation for Efficient Autonomous Driving [ICCV 2023] </h3>
   
 <br/>
+</div>
 
 https://user-images.githubusercontent.com/45144254/229673708-648e8da5-4c70-4346-9da2-423447d1ecde.mp4
 
