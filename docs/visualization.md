@@ -1,6 +1,6 @@
 # Visualization
 
-We provide the script to visualize the VAD prediction to a video [here](tools/analysis_tools/vad_vis_video.py).
+We provide the script to visualize the VAD prediction to a video [here](tools/analysis_tools/visualization.py).
 
 ## Visualize prediction
 
