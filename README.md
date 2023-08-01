@@ -13,8 +13,8 @@ https://user-images.githubusercontent.com/45144254/229673708-648e8da5-4c70-4346-
 >[arXiv Paper](https://arxiv.org/abs/2303.12077), ICCV 2023
 
 ## News
-* **`27 July, 2023`:** Code & models are released!
-* **`14 July, 2023`:** VAD is accepted by ICCV 2023🎉! Code and models will be open source in July!
+* **`1 Aug, 2023`:** Code & models are released!
+* **`14 July, 2023`:** VAD is accepted by ICCV 2023🎉! Code and models will be open source soon!
 * **`21 Mar, 2023`:** We release the VAD paper on [arXiv](https://arxiv.org/abs/2303.12077). Code/Models are coming soon. Please stay tuned! ☕️
 
 ## Introduction
