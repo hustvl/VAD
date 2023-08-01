@@ -13,6 +13,7 @@ https://user-images.githubusercontent.com/45144254/229673708-648e8da5-4c70-4346-
 >[arXiv Paper](https://arxiv.org/abs/2303.12077), ICCV 2023
 
 ## News
+* **`27 July, 2023`:** Code & models are released!
 * **`14 July, 2023`:** VAD is accepted by ICCV 2023🎉! Code and models will be open source in July!
 * **`21 Mar, 2023`:** We release the VAD paper on [arXiv](https://arxiv.org/abs/2303.12077). Code/Models are coming soon. Please stay tuned! ☕️
 
@@ -27,6 +28,13 @@ https://user-images.githubusercontent.com/45144254/229673708-648e8da5-4c70-4346-
 - VAD implicitly and explicitly utilizes the vectorized scene information to improve planning safety, via query interaction and vectorized planning constraints.
 - VAD achieves SOTA end-to-end planning performance, outperforming previous methods by a large margin. Not only that, because of the vectorized scene representation and our concise model design, VAD greatly improves the inference speed, which is critical for the real-world deployment of an autonomous driving system.
 
+## Models
+
+| Method | Backbone | avg. L2 | avg. Col. | FPS | Config | Download |
+| :---: | :---: | :---: | :---: |  :---: | :---: | :---: |
+| VAD-Tiny | R50 | 0.78 | 0.38 | 16.8 | [config](projects/configs/VAD/VAD_tiny_stage_2.py) | [model](https://drive.google.com/file/d/1KgCC_wFqPH0CQqdr6Pp2smBX5ARPaqne/view?usp=sharing) |
+| VAD-Base | R50 | 0.72 | 0.22 | 4.5 | [config](projects/configs/VAD/VAD_base_stage_2.py) | [model](https://drive.google.com/file/d/1FLX-4LVm4z-RskghFbxGuYlcYOQmV5bS/view?usp=sharing) |
+
 ## Results
 - Open-loop planning results on [nuScenes](https://github.com/nutonomy/nuscenes-devkit). See the [paper](https://arxiv.org/abs/2303.12077) for more details.
 
@@ -37,8 +45,14 @@ https://user-images.githubusercontent.com/45144254/229673708-648e8da5-4c70-4346-
 | VAD-Tiny | 0.46 | 0.76 | 1.12 | 0.21 | 0.35 | 0.58 | **16.8** |
 | VAD-Base | **0.41** | **0.70** | **1.05** | **0.07** | **0.17** | **0.41** | 4.5 |
 
+## Getting Started
+- [Installation](docs/install.md)
+- [Prepare Dataset](docs/prepare_dataset.md)
+- [Train and Eval](docs/train_eval.md)
+- [Visualization](docs/visualization.md)
+
 ## Catalog
-- [ ] Code & Checkpoints Release
+- [x] Code & Checkpoints Release
 - [x] Initialization
 
 ## Contact
