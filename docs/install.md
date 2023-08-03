@@ -47,12 +47,17 @@ git checkout -f v0.17.1
 python setup.py develop
 ```
 
-**g. Clone VAD.**
+**g. Install nuscenes-devkit.**
+```shell
+pip install nuscenes-devkit==1.1.9
+```
+
+**h. Clone VAD.**
 ```shell
 git clone https://github.com/hustvl/VAD.git
 ```
 
-**h. Prepare pretrained models.**
+**i. Prepare pretrained models.**
 ```shell
 cd /path/to/VAD
 mkdir ckpts
