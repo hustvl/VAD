@@ -2,6 +2,9 @@
 
 https://user-images.githubusercontent.com/45144254/229673708-648e8da5-4c70-4346-9da2-423447d1ecde.mp4
 
+https://github.com/hustvl/VAD/assets/45144254/153b9bf0-5159-46b5-9fab-573baf5c6159
+
+
 > [**VAD: Vectorized Scene Representation for Efficient Autonomous Driving**](https://arxiv.org/abs/2303.12077)
 >
 > [Bo Jiang](https://github.com/rb93dett)<sup>1</sup>\*, [Shaoyu Chen](https://scholar.google.com/citations?user=PIeNN2gAAAAJ&hl=en&oi=sra)<sup>1</sup>\*, Qing Xu<sup>2</sup>, [Bencheng Liao](https://github.com/LegendBC)<sup>1</sup>, Jiajie Chen<sup>2</sup>, [Helong Zhou](https://scholar.google.com/citations?user=wkhOMMwAAAAJ&hl=en&oi=ao)<sup>2</sup>, [Qian Zhang](https://scholar.google.com/citations?user=pCY-bikAAAAJ&hl=zh-CN)<sup>2</sup>, [Wenyu Liu](http://eic.hust.edu.cn/professor/liuwenyu/)<sup>1</sup>, [Chang Huang](https://scholar.google.com/citations?user=IyyEKyIAAAAJ&hl=zh-CN)<sup>2</sup>, [Xinggang Wang](https://xinggangw.info/)<sup>1,&#8224;</sup>
@@ -44,6 +47,18 @@ https://user-images.githubusercontent.com/45144254/229673708-648e8da5-4c70-4346-
 | UniAD | 0.48 | 0.96 | 1.65 | **0.05** | 0.17 | 0.71 | 1.8 |
 | VAD-Tiny | 0.46 | 0.76 | 1.12 | 0.21 | 0.35 | 0.58 | **16.8** |
 | VAD-Base | **0.41** | **0.70** | **1.05** | **0.07** | **0.17** | **0.41** | 4.5 |
+
+- Closed-loop simulation results on [CARLA](https://github.com/carla-simulator/carla).
+
+| Method | Town05 Short DS | Town05 Short RC | Town05 Long DS | Town05 Long RC |
+| :---: | :---: | :---: | :---: | :---:|
+| CILRS | 7.47 | 13.40 | 3.68 | 7.19 |
+| LBC | 30.97 | 55.01 | 7.05 | 32.09 |
+| Transfuser\* | 54.52 | 78.41 | 33.15 | 56.36 |
+| ST-P3 | 55.14 | 86.74 | 11.45 | 83.15 |
+| VAD-Base | **64.29** | **87.26** | **30.31** | 75.20 |
+
+> \*: LiDAR-based method.
 
 ## Getting Started
 - [Installation](docs/install.md)
