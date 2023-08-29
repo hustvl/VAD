@@ -1,6 +1,8 @@
 # Step-by-step installation instructions
 
-Following https://mmdetection3d.readthedocs.io/en/latest/getting_started.html#installation
+Following https://mmdetection3d.readthedocs.io/en/latest/getting_started.html#installation.
+
+Detailed package versions can be found in [requirements.txt](../requirements.txt).
 
 
 
