@@ -218,8 +218,8 @@ def _fill_trainval_infos(nusc,
     val_nusc_infos = []
     frame_idx = 0
     cat2idx = {}
-    for dic in nusc.category:
-        cat2idx[dic['name']] = dic['index']
+    for idx, dic in enumerate(nusc.category):
+        cat2idx[dic['name']] = idx
 
     for sample in mmcv.track_iter_progress(nusc.sample):
         map_location = nusc.get('log', nusc.get('scene', sample['scene_token'])['log_token'])['location']
