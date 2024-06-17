@@ -16,6 +16,7 @@ https://github.com/hustvl/VAD/assets/45144254/153b9bf0-5159-46b5-9fab-573baf5c61
 >[arXiv Paper](https://arxiv.org/abs/2303.12077), ICCV 2023
 
 ## News
+* **`17 June, 2024`:** CARLA implementation of VADv1 is available on [Bench2Drive](https://github.com/Thinklab-SJTU/Bench2Drive?tab=readme-ov-file).
 * **`20 Feb, 2024`:** VADv2 is available on arXiv    [paper](https://arxiv.org/pdf/2402.13243)    [project page](https://hgao-cv.github.io/VADv2/).
 * **`1 Aug, 2023`:** Code & models are released!
 * **`14 July, 2023`:** VAD is accepted by ICCV 2023🎉! Code and models will be open source soon!
