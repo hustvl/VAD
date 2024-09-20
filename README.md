@@ -1,4 +1,6 @@
-## VAD: Vectorized Scene Representation for Efficient Autonomous Driving
+## VAD v1 & v2
+
+[project page](https://hgao-cv.github.io/VADv2/)
 
 https://user-images.githubusercontent.com/45144254/229673708-648e8da5-4c70-4346-9da2-423447d1ecde.mp4
 
@@ -16,6 +18,7 @@ https://github.com/hustvl/VAD/assets/45144254/153b9bf0-5159-46b5-9fab-573baf5c61
 >[arXiv Paper](https://arxiv.org/abs/2303.12077), ICCV 2023
 
 ## News
+* **`20 Sep, 2024`:** Core code of VADv2 (config and model) is available in the `VADv2` folder. Easy to integrade it into the VADv1 framework for training and inference.
 * **`17 June, 2024`:** CARLA implementation of VADv1 is available on [Bench2Drive](https://github.com/Thinklab-SJTU/Bench2Drive?tab=readme-ov-file).
 * **`20 Feb, 2024`:** VADv2 is available on arXiv    [paper](https://arxiv.org/pdf/2402.13243)    [project page](https://hgao-cv.github.io/VADv2/).
 * **`1 Aug, 2023`:** Code & models are released!
@@ -84,6 +87,13 @@ If you find VAD useful in your research or applications, please consider giving 
   author={Jiang, Bo and Chen, Shaoyu and Xu, Qing and Liao, Bencheng and Chen, Jiajie and Zhou, Helong and Zhang, Qian and Liu, Wenyu and Huang, Chang and Wang, Xinggang},
   journal={ICCV},
   year={2023}
+}
+
+@article{chen2024vadv2,
+  title={Vadv2: End-to-end vectorized autonomous driving via probabilistic planning},
+  author={Chen, Shaoyu and Jiang, Bo and Gao, Hao and Liao, Bencheng and Xu, Qing and Zhang, Qian and Huang, Chang and Liu, Wenyu and Wang, Xinggang},
+  journal={arXiv preprint arXiv:2402.13243},
+  year={2024}
 }
 ```
 
