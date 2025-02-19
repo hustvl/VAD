@@ -18,6 +18,8 @@ https://github.com/hustvl/VAD/assets/45144254/153b9bf0-5159-46b5-9fab-573baf5c61
 >[arXiv Paper](https://arxiv.org/abs/2303.12077), ICCV 2023
 
 ## News
+https://hgao-cv.github.io/RAD/
+* **`19 Feb, 2025`:** Checkout our new work [RAD](https://hgao-cv.github.io/RAD) 🥰, end-to-end autonomous driving with large-scale 3DGS-based Reinforcement Learning post-training.
 * **`30 Oct, 2024`:** Checkout our new work [Senna](https://github.com/hustvl/Senna) 🥰, which combines VAD/VADv2 with large vision-language models to achieve more accurate, robust, and generalizable autonomous driving planning.
 * **`20 Sep, 2024`:** Core code of VADv2 (config and model) is available in the `VADv2` folder. Easy to integrade it into the VADv1 framework for training and inference.
 * **`17 June, 2024`:** CARLA implementation of VADv1 is available on [Bench2Drive](https://github.com/Thinklab-SJTU/Bench2Drive?tab=readme-ov-file).
