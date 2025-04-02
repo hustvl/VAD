@@ -529,29 +529,30 @@ class VectorizedLocalMap(object):
         patch_angle = quaternion_yaw(rotation) / np.pi * 180
         # import pdb;pdb.set_trace()
         vectors = []
-        for vec_class in self.vec_classes:
-            if vec_class == 'divider':
-                line_geom = self.get_map_geom(patch_box, patch_angle, self.line_classes, location)
-                line_instances_dict = self.line_geoms_to_instances(line_geom)     
-                for line_type, instances in line_instances_dict.items():
-                    for instance in instances:
-                        vectors.append((instance, self.CLASS2LABEL.get(line_type, -1)))
-            elif vec_class == 'ped_crossing':
-                ped_geom = self.get_map_geom(patch_box, patch_angle, self.ped_crossing_classes, location)
-                # ped_vector_list = self.ped_geoms_to_vectors(ped_geom)
-                ped_instance_list = self.ped_poly_geoms_to_instances(ped_geom)
-                # import pdb;pdb.set_trace()
-                for instance in ped_instance_list:
-                    vectors.append((instance, self.CLASS2LABEL.get('ped_crossing', -1)))
-            elif vec_class == 'boundary':
-                polygon_geom = self.get_map_geom(patch_box, patch_angle, self.polygon_classes, location)
-                # import pdb;pdb.set_trace()
-                poly_bound_list = self.poly_geoms_to_instances(polygon_geom)
-                # import pdb;pdb.set_trace()
-                for contour in poly_bound_list:
-                    vectors.append((contour, self.CLASS2LABEL.get('contours', -1)))
-            else:
-                raise ValueError(f'WRONG vec_class: {vec_class}')
+        if location != "" :
+            for vec_class in self.vec_classes:
+                if vec_class == 'divider':
+                    line_geom = self.get_map_geom(patch_box, patch_angle, self.line_classes, location)
+                    line_instances_dict = self.line_geoms_to_instances(line_geom)     
+                    for line_type, instances in line_instances_dict.items():
+                        for instance in instances:
+                            vectors.append((instance, self.CLASS2LABEL.get(line_type, -1)))
+                elif vec_class == 'ped_crossing':
+                    ped_geom = self.get_map_geom(patch_box, patch_angle, self.ped_crossing_classes, location)
+                    # ped_vector_list = self.ped_geoms_to_vectors(ped_geom)
+                    ped_instance_list = self.ped_poly_geoms_to_instances(ped_geom)
+                    # import pdb;pdb.set_trace()
+                    for instance in ped_instance_list:
+                        vectors.append((instance, self.CLASS2LABEL.get('ped_crossing', -1)))
+                elif vec_class == 'boundary':
+                    polygon_geom = self.get_map_geom(patch_box, patch_angle, self.polygon_classes, location)
+                    # import pdb;pdb.set_trace()
+                    poly_bound_list = self.poly_geoms_to_instances(polygon_geom)
+                    # import pdb;pdb.set_trace()
+                    for contour in poly_bound_list:
+                        vectors.append((contour, self.CLASS2LABEL.get('contours', -1)))
+                else:
+                    raise ValueError(f'WRONG vec_class: {vec_class}')
 
         # filter out -1
         filtered_vectors = []
